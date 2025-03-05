@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    box-shadow: none;
+}
+.header {
+    top: 0%;
+    position: sticky;
+    color: #FFFFFF;
+    background-color: #242424;
+    padding: 30px;
+    margin-top: 0;
+    overflow: auto;
+    z-index: 1000;
+}
+.grey{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: #FFFFFF;
+    background-color: #242424;
+    height:fit-content;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    justify-content: center;
+    align-items: center;
+}
+.grey h1, p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.about-text{
+    width:200px;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px; 
+}
+.desc{
+    display: block;
+}
+.image-container{
+    margin: 25px;
+    overflow: hidden;
+}
+.image1, .image2{
+    margin: 50px;
+}
+.image2{
+    box-shadow: 0 0 10px rgba(0.8, 0.8, 0.8, 0.8);
+    
+}
+.image2 img{
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    float: right;
+    top: 10px;
+}
+.image1{
+    display: flex;
+    box-shadow: 0 0 10px rgba(0.8, 0.8, 0.8, 0.8);
+}
+.image1 h1{
+    text-align: left;
+    margin-left: 40px;
+}
+.image1 p{
+    clear: both;
+    font-size: 2rem;
+    text-align: left;
+    width: 78%;
+    margin-left: 40px;
+}
+.image1 h2{
+    margin-left: 40px;
+    border-bottom: 5px solid #000000;
+    width:600px;
+    padding-bottom: 20px;
+}
+
+.image-container h1, h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+.image2 h1{
+    text-align: right;
+    padding-top: 40px;
+    margin-right: 860px;
+}
+.image2 p{
+    font-family: 'Roboto', sans-serif;
+    align-self: flex-end;
+    font-size: 2rem;
+    margin-left: 80px;
+    text-align: right;
+    width: 52%;
+    padding-bottom: 5%;
+}
